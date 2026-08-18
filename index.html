@@ -4,62 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game do Saber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Títulos */
+        .titulo-principal {
+            text-align: center;
+            font-size: 45px;
+            margin-bottom: 5px;
+            color: #02147a;
+        }
+
+        .subtitulo {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 40px;
+            margin-bottom: 5px;
+            color: #02147a;
+        }
+
+        /* Linhas Decorativas */
+        .linha-azul {
+            width: 100px;
+            height: 10px;
+            background-color: rgb(2, 20, 122);
+            border-radius: 5px;
+            margin: 0 auto 20px auto;
+        }
+
+        .linha-verde {
+            width: 100px;
+            height: 5px;
+            background-color: rgb(10, 224, 28);
+            border-radius: 20px;
+            margin: 0 auto 20px auto;
+        }
+
+        /* Textos */
+        .texto-destaque {
+            text-align: center;
+            font-size: 25px;
+            max-width: 800px;
+            margin: 0 auto 10px auto;
+        }
+
+        .texto-instrucao {
+            text-align: center;
+            font-size: 16px;
+            text-decoration: underline;
+            margin-bottom: 15px;
+        }
+
+        .texto-corpo {
+            text-align: center;
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto 10px auto;
+        }
+
+        /* Imagens */
+        .container-imagem {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .img-azul {
+            width: 50%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid rgb(2, 20, 122);
+            border-radius: 20px;
+        }
+
+        .img-verde {
+            width: 50%;
+            max-width: 600px;
+            height: auto;
+            border: 5px solid rgb(10, 224, 28);
+            border-radius: 20px;
+        }
+    </style>
 </head>
 <body> 
 
-    <h1 style="text-align: center; font-size: 45px; margin-bottom: 2px;">
-        Nossa escola, nosso compromisso 
-    </h1>
-    
-    <div style="width: 100px; height: 10px; background-color: rgb(2, 20, 122); border-radius: 5px; margin: 0 auto;"></div>
+    <!-- Seção: Educação e Ambiente -->
+    <h1 class="titulo-principal">Nossa escola, nosso compromisso</h1>
+    <div class="linha-azul"></div>
 
-    <p style="text-align: center; font-size: 25px;">
+    <p class="texto-destaque">
         Uma escola bem adequada é a melhor coisa que tem para uma sociedade crescer.
         Mas o que acontece quando não há um lugar adequado?
     </p>
 
-    <p style="text-align: center; font-size: 15px; text-decoration: underline;">
-        O desenho abaixo mostra a situação:
-    </p>
+    <p class="texto-instrucao">O desenho abaixo mostra a situação:</p>
 
-    <p style="text-align: center;">
-        <img src="mal 1.png" alt="Escola inadequada" style="width: 50%; height: auto; border: 5px solid rgb(2, 20, 122); border-radius: 20px;">
-    </p>
+    <div class="container-imagem">
+        <img src="mal 1.png" alt="Escola inadequada" class="img-azul">
+    </div>
 
-    <p style="text-align: center; font-size: 25px;">
+    <p class="texto-destaque">
         Um ambiente onde não há concentração, não há ensino. 
     </p>
 
-    <p style="text-align: center; font-size: 15px; text-decoration: underline;"> 
+    <p class="texto-instrucao"> 
         Por isso, a imagem abaixo mostra um lugar onde pode haver um estudo e uma concentração melhor:
     </p>
 
-    <p style="text-align: center;">
-        <img src="bom 1.png" alt="Escola adequada" style="width: 50%; height: auto; border: 5px solid rgb(2, 20, 122); border-radius: 20px;">
-    </p>
+    <div class="container-imagem">
+        <img src="bom 1.png" alt="Escola adequada" class="img-azul">
+    </div>
 
-    <h2 style="text-align: center; font-size: 30px; margin-bottom: 5px;">
-        Saúde e bem-estar
-    </h2>
+    <!-- Seção: Saúde e Bem-Estar -->
+    <h2 class="subtitulo">Saúde e bem-estar</h2>
+    <div class="linha-verde"></div>
 
-    <div style="width: 100px; height: 5px; background-color: rgb(10, 224, 28); border-radius: 20px; margin: auto;"></div>
-
-    <p style="text-align: center; font-size: 20px;">
+    <p class="texto-corpo">
         Em um ambiente onde há sujeira, a destruição é certa — inclusive na comida. Dito isso, a imagem abaixo mostra essa realidade:
     </p>
 
-<p style="text-align: center;">
-    <img src="refeitorio 1.png" style="width: 50%; height: auto; border: 5px solid rgb(10, 224, 28); border-radius: 20px;">
+    <div class="container-imagem">
+        <img src="refeitorio 1.png" alt="Refeitório em situação inadequada" class="img-verde">
+    </div>
 
-</p>
-
-<p style="text-align: center; font-size: 20px;">como vimos a imagem a cima, uma situação critica que devemos nos preucupar   </p>
-
-
-
-
-
-
+    <p class="texto-corpo">
+        Como vimos na imagem acima, essa é uma situação crítica com a qual devemos nos preocupar.
+    </p>
 
 </body>
 </html>
